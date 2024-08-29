@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.CoachTableItems {
+    @apply w-[80px] flex justify-center text-gray-900 text-sm items-center;
+}
+.ItenerarytableItems {
+    @apply text-gray-900 gap-5 text-start w-1/6;
+}

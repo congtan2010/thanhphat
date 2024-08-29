@@ -1,0 +1,5 @@
+{
+    "AdminModules": true,
+    "AuthModules": true,
+    "UserModules": true
+}

@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.top-menu-expanded {
+    @apply z-50 flex-col justify-start h-[300px]  left-[160px] text-center grow right-[160px] top-[100px] bg-white absolute cursor-pointer;
+}
+.slick-next {
+    @apply absolute w-[20px] h-full right-0 bg-white z-20;
+}
+.slick-prev {
+    @apply absolute w-[20px] h-full  left-0 bg-white z-20;
+}
+.ticket {
+    @apply bg-blue-300 rounded-lg w-20 text-center cursor-pointer;
+}
+.ticketBooked {
+    @apply bg-red-300 rounded-lg w-20 text-center cursor-not-allowed;
+}
+.ticketBookeNotpay {
+    @apply bg-yellow-300  rounded-lg w-20 text-center cursor-not-allowed;
+}
+.bg {
+    @apply bg-gray-300;
+}
+.dropdownCoach {
+    @apply px-2 py-2 text-gray-900 cursor-pointer bg-red-300 rounded-lg;
+}
+.buttonBookTiket {
+    @apply bg-red-200 w-20 rounded-lg;
+}
+.tableItems {
+    @apply w-1/6 justify-center text-gray-900;
+}
